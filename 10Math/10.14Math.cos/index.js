@@ -16,7 +16,7 @@ console.log(c);
 let d = Math.cos(1); // 0.5403023058681398
 let calculateDegree = Math.cos(1) * (180 / Math.PI);
 console.log(d);
-console.log(Math.floor(calculateDegree));
+console.log(Math.trunc(calculateDegree));
 
 let e = Math.cos(Math.PI); // -1
 console.log(e);
