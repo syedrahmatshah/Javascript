@@ -21,3 +21,33 @@ console.log(arr2[0]);
 let arr3 = [2, 4, 1, 8, 5];
 let result3 = arr3.sort().reverse(); // 8,5,4,2,1
 console.log(arr3[0]);
+
+let alphabet = [
+  "a",
+  "x",
+  "c",
+  "d",
+  "s",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "p",
+  "n",
+  "o",
+  "m",
+  "q",
+  "t",
+  "e",
+  "r",
+  "u",
+  "v",
+  "y",
+  "w",
+  "b",
+  "z",
+];
+console.log(alphabet.sort());
