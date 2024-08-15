@@ -9,3 +9,7 @@ let result = arr.map((x) => {
   return x * 10;
 });
 console.log(result);
+
+let arr1 = [2.1, 3.5, 4.7];
+let result1 = arr.map(Math.round);
+console.log(result1);
