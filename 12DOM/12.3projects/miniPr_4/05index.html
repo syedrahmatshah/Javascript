@@ -1,0 +1,32 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To show Hidden Box</title>
+  </head>
+  <style>
+    .hide {
+      display: none;
+    }
+
+    #gift-box {
+      font-size: 5em;
+    }
+  </style>
+  <body>
+    <div
+      id="gift-box"
+      class="hide">
+      🎁
+    </div>
+    <button id="click-btn">Show the box</button>
+    <script>
+      const buttonElement = document.getElementById("click-btn");
+      const hideBoxElement = document.getElementById("gift-box");
+
+      buttonElement.addEventListener("click", () => {
+        hideBoxElement.classList.remove("hide");
+      });
+    </script>
+  </body>
+</html>
